@@ -209,8 +209,9 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-deploy-plugin</artifactId>
       </plugin>
-    </plugins>
-  <pluginManagement>
+                </plugins>
+
+<pluginManagement>
       <plugins>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -219,11 +220,14 @@
         </plugin>
       </plugins>
     </pluginManagement>
- </build>
+
+        </build>
+
+
 <distributionManagement>
     <snapshotRepository>
       <id>maven-snapshots</id>
-      <url>http://54.234.149.175:8081/repository/test4/</url>
+      <url>http://54.234.149.175:8081/repository/service_two/</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
